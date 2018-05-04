@@ -1,0 +1,227 @@
+<html>
+  <head>
+  	<title>My Portfolio</title>
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="css/finance.css"> <!-- should come after bootsrtap to become winner. -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="yahoofinance.html"><span class="fa fa-university" aria-hidden="true"></span> FINANCE</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="watchlists.html">WatchLists</a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="#">My Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Market</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Industries</a>
+          </li>
+        </ul>
+      </div>
+    <!-- <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="#">Navbar 2</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div> -->
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#">Log in</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2><i class="fas fa-briefcase"></i> My Portfolio</h2>
+      <div class="text-center">
+        <img src="img/story1.jpg" class="img-fluid" alt="Responsive image" width="475" height="315">
+        <p> </P>
+      </div>
+
+      <table class="table table-striped table-sm text-right">
+        <tbody>
+          <tr class="text-sm">
+            <td class="text-left"><input type="checkbox" aria-label="Checkbox for Symbol"> Symbol</td>
+            <td>Last Price</td>
+            <td>Change</td>
+            <td>% Chg</td>
+            <td>Volume</td>
+            <td>52 Week Low</td>
+            <td>52 Week High</td>
+            <td>Market Cap</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">MU</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/AMZN?p=AMZN">AMZN</a>
+            </td>
+            <td>1581.50</td>
+            <td>+9.43</td>
+            <td>+0.60%</td>
+            <td>2.83M</td>
+            <td>1562.85</td>
+            <td>1584.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">WMT</a>
+            </td>
+            <td>87.71</td>
+            <td>+1.47</td>
+            <td>+1.90%</td>
+            <td>5.52M</td>
+            <td>85.36</td>
+            <td>88.10</td>
+            <td>258.61B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">VZ</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">GM</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">GOOGL</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">TWTR</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">FB</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">INTC</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">MSFT</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">FORD</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+          <tr>
+            <td class="text-left">
+              <input type="checkbox" aria-label="Checkbox for Symbol">
+              <a href="https://finance.yahoo.com/quote/MU?p=MU">AAPL</a>
+            </td>
+            <td>47.49</td>
+            <td>+0.88</td>
+            <td>+1.90%</td>
+            <td>22.40M</td>
+            <td>26.85</td>
+            <td>63.42</td>
+            <td>55.12B</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p> </p>
+  </body>
+</html>
